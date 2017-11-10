@@ -2,9 +2,8 @@
 set -e
 
 #
-# React
+# React RequireJS
 #
-
 node unitejs/cli/bin/unite configure --packageName=re-rjs-js-jas-pro --title="React RequireJS JavaScript" --sourceLanguage=JavaScript --moduleType=AMD --bundler=RequireJS --unitTestRunner=Karma --unitTestFramework=Jasmine --unitTestEngine=ChromeHeadless --e2eTestRunner=Protractor --e2eTestFramework=Jasmine --linter=ESLint --license=MIT --packageManager=Npm --cssPre=Css --cssPost=PostCss --appFramework=React --disableVersionCheck --outputDirectory=./apps/re-rjs-js-jas-pro
 node unitejs/cli/bin/unite generate --type=class --name=MyClass --disableVersionCheck --outputDirectory=./apps/re-rjs-js-jas-pro
 node unitejs/cli/bin/unite generate --type=component --name=MyComponent --disableVersionCheck --outputDirectory=./apps/re-rjs-js-jas-pro
