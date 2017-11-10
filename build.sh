@@ -18,10 +18,10 @@ error_handler() {
   exit 1
 }
 kill_chrome() {
-#   set +e
+   set +e
 #   pkill chromedriver >> $BUILD_OUTPUT 2>&1
 #   pkill chrome >> $BUILD_OUTPUT 2>&1
-#   set -e
+   set -e
 }
 trap 'error_handler' ERR
 
